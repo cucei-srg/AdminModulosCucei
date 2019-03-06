@@ -21,7 +21,7 @@ class reporte2Seguridad
     */
   private $idUsuario;
  /**
-    * @ORM\ManyToOne(targetEntity="usuario")
+    * @ORM\ManyToOne(targetEntity="instituciones")
     * @ORM\JoinColumn(name="idInstitucion", referencedColumnName="id")
     */
   private $idInstitucion;
